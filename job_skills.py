@@ -159,7 +159,30 @@ class RAG_Pipeline():
         prompt_template = f"""
         <|system|>
          Give tailored skills recommendations and career advice to the job seeker for job_title based only on the context provided:
-
+         Example Input/Output:
+         The LLM should be capable of providing the job seeker with personalized career advice based
+         on their targeted job title.
+         Targeted Job Title: Machine Learning Engineer
+         Personalized Career Advice: Based on your interest in the role of Machine Learning Engineer,
+         here are some personalized career advice:
+         1. Strengthen your foundation in mathematics and statistics, as they form the backbone of
+         machine learning algorithms. Focus on concepts like linear algebra, calculus, probability, and
+         optimization techniques.
+         2. Enhance your programming skills in languages commonly used in machine learning, such as
+         Python and R. Familiarize yourself with libraries like TensorFlow, PyTorch, and scikit-learn for
+         implementing machine learning models.
+         3. Build a strong portfolio of projects showcasing your expertise in machine learning. Work on
+         real-world datasets, develop and deploy machine learning models, and document your process
+         and results on platforms like GitHub or Kaggle.
+         4. Stay updated with the latest trends and advancements in the field of machine learning. Follow
+         research publications, attend conferences, and participate in online courses or workshops to
+         expand your knowledge and skills.
+         5. Network with professionals in the machine learning community. Join relevant online forums,
+         participate in meetups or conferences, and connect with mentors who can provide guidance and
+         support in your career journey.
+         Remember that continuous learning and practical experience are key to advancing your career
+         as a Machine Learning Engineer. Keep exploring new technologies, solving challenging
+         problems, and seeking opportunities for growth and development.
         {context}
 
         <|user|>
@@ -234,7 +257,7 @@ def main():
     
     argparser.add_argument(
         '-k',
-        default= 4,
+        default= 10,
         help='Enter k for KNN search')
     
 
