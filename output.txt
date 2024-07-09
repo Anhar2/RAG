@@ -1,0 +1,16 @@
+**Software Engineer**
+
+* **Recommended Skills:** Python, Java, SQL
+* **Career Advice:**
+    * Focus on building a strong foundation in Python and Java.
+    * Develop proficiency in SQL for data manipulation and querying.
+    * Consider pursuing certifications in Python and Java to enhance your marketability.
+    * Explore opportunities in full-stack development or data science.
+
+**Additional Recommendations:**
+
+* **Learn in-demand technologies:** Stay updated with the latest trends in the software engineering field, such as cloud computing, artificial intelligence, and machine learning.
+* **Build a strong network:** Attend industry events, meetups, and conferences to connect with other software engineers and potential employers.
+* **Develop problem-solving skills:** Practice solving coding challenges and participate in hackathons to hone your problem-solving abilities.
+* **Stay motivated and persistent:** The software engineering field can be challenging, but it's important to stay motivated and persistent in your pursuit of a career in this field<eos>
+{'BLEU': 0.9502223803323256, 'ROUGE-1': 0.197979797979798, 'BERT P': 0.5695136785507202, 'BERT R': 0.5260145664215088, 'BERT F1': 0.5469005703926086}

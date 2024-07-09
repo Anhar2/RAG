@@ -1,0 +1,8 @@
+﻿ipywidgets
+sentence-transformers
+nltk
+faiss-gpu
+sacrebleu
+rouge-score
+bert-score
+accelerate
